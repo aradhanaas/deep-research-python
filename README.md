@@ -107,6 +107,9 @@ pip install -r requirements.txt
 3. Set up environment variables in a `.env.local` file:
 
 ```bash
+
+TAVILY_API_KEY="your_travily_key"
+
 FIRECRAWL_KEY="your_firecrawl_key"
 # If you want to use your self-hosted Firecrawl, add the following below:
 # FIRECRAWL_BASE_URL="http://localhost:3002"
